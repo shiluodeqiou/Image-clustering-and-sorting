@@ -1,0 +1,16 @@
+unsorted_photos/
+sorted_photos/
+image_clustering.log
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+*.log
+
+# 排除 weights 目录，但保留 .gitattributes
+weights/*
+!weights/.gitattributes
+
+
